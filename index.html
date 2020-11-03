@@ -5,96 +5,134 @@
     <title>HTML</title>
 </head>
 <body>
-    <section>
-        <h2> <b> Unified Modeling Language Theory Test </b></h2>
-        <pre>Test Subject: Unified Modeling Language  Time:     100 minute   Score: 100 </pre>
-        <div>
-            <label>Class:  </label>
-            <input type="text" placeholder="Class1"> 
-            <label>Student ID:  </label>
-            <input type="text" placeholder="001">
-            <label>Name:  </label>
-            <input type="text" placeholder="Darcy">
-            
+    <section name = "Introduction" class = "intro">
+        <h2 class = "intro"> <b> Unified Modeling Language Theory Test </b></h2>
+        <div class = "intro"> 
+        <label class = "intro1">Test Subject: </label>
+        <label class = "intro2">Unified Modeling Language</label>
+        <label class = "intro3">Time</label>  
+        <label class = "intro4">100 minute</label>  
+        <label class = "intro5"> Score:  </pre>
+        <label class = "intro6"> 100 <br></label>
+        
+        <label class = "intro1">Class:  </label>
+        <input class = "intro2" type="text" placeholder="Class1" value = "Class1"> 
+        <label class = "intro3">Student ID:  </label>
+        <input class = "intro4" type="text" placeholder="001" value = "001">
+        <label class = "intro5">Name:  </label>
+        <input class = "intro6" type="text" placeholder="Darcy" value = "Darcy">
         </div>
-    
     </section>
     
-    <section>
-        <h2> <b> 1. Fill in the blanks(5 points per space, 20 points total) </b></h2>
-        
+    <section name = "Question1" class = "question1">
+        <h2 class = "question1"> <b> 1、Fill in the blanks(5 points per space, 20 points total) </b></h2>
         <ol style="list-style-type:i">
-		<li>            
-            <label>The full name of UML in Chinese is:  </label>
-            <input type="text" placeholder="Unified Modeling Language"> </li>
-		<li>
-            <label>The most prominent feature of the object is:  </label>
-            <input type="text" placeholder="Encapsulation"> 
-            <input type="text" placeholder="Inheritance"> 
-            <input type="text" placeholder="Polymorphism"> </li>
+		<li class = "question1">            
+            <label class = "question11>The full name of UML in Chinese is:  </label>
+            <input type="text" class = "question11" id = "UMLInChinese" placeholder="Unified Modeling Language" value = "Unified Modeling Language"> </li>
+		<li class = "question1">
+            <label class = "question12">The most prominent feature of the object is:  </label>
+            <input type="text" class = "question12" id = "prominentFeature1" placeholder="Encapsulation" value = "feature1"> 
+            <input type="text" class = "question12" id = "prominentFeature2" placeholder="Inheritance" value = "feature2"> 
+            <input type="text" class = "question12" id = "prominentFeature3" placeholder="Polymorphism" value = "feature3"> </li>
 	</ol>
     </section>
     
-    
-    
-    
-    <section>
-        <h2> <b> 2. Multiple choice question(10 points per space, 20 points total) </b></h2>
+    <section name = "Question2" class = "question2">
+        <h2 class = "question2"> <b> 2、Multiple choice question(10 points per space, 20 points total) </b></h2>
         
         <ol style="list-style-type:i">
-        <li>
-           <label>The relationship between UML and software engineering is: <br></label>
-           <input type="radio" id="option21A" checked="">
-            <label for="option21A">(A)UML is software engineering<br></label>
+        <li class = "question21">
+           <label class = "question21">The relationship between UML and software engineering is: <br></label>
+           <input type="radio" class = "question21" id = "option21A" name = "radio21" value = "A">
+            <label class = "question21">(A)UML is software engineering<br></label>
            
-           <input type="radio" id="option21B">
-           <label for="option21B">(B)UML participates in several stages of the software development process in software engineering</label>
+           <input type="radio" class = "question21" id = "option21B" name = "radio21" value = "B" checked = "checked">
+           <label for="option21B" class = "question21">(B)UML participates in several stages of the software development process in software engineering<br></label>
+           
+           <input type="radio" class = "question21" id = "option21C" name = "radio21" value = "C">
+           <label for="option21C" class = "question21">(C)UML has nothing to do with software engineering<br> </label>
+
+           <input type="radio" class = "question21" id = "option21D" name = "radio21" value = "D">
+           <label for="option21D" class = "question21">(D)UML is part of software engineering<br> </label>
          </li>
-        
-         <li>
-           <label>Java language support: <br></label>
-           <input type="radio" id="option22A" checked="">
-            <label for="option22A">(A)Single inheritance<br></label>
+
+         <li class = "question22">
+           <label class = "question22">Java language support: <br></label>
+           <input type="radio" class = "question22" id="option22A" name = "radio22" value = "A" checked = "checked">
+            <label for="option22A" class = "question22">(A)Single inheritance<br></label>
            
-           <input type="radio" id="option22B">
-           <label for="option22B">(B)Mutiple inheritance</label>
+           <input type="radio" class = "question22" id="option22B" name = "radio22" value = "B">
+           <label for="option22B" class = "question22">(B)Multiple inheritance</label>
          </li>
            
 	</ol>
-    </section><section>
-        <h2> <b> 3. Mutiple choice(10 points per space, 20 points total)  </b></h2>
+    </section>
+    
+    <section name = "Question3" class = "question3">
+        <h2> <b> 3、Multiple choice question(10 points per space, 20 points total)  </b></h2>
         
         <ol style="list-style-type:i">
         <li>
             <label>The granularity of the use case is divided into the following three: <br></label>
-            <input type="checkbox" id="option31A" checked="">
+            <input type = "checkbox" class = "question31" id = "option31A" checked = "checked"/>
             <label>(A)Overview level<br></label>
-            <input type="checkbox" id="option31B" checked="">
+            <input type = "checkbox" class = "question31" id = "option31B" checked = "checked"/>
             <label>(B)Demand level<br></label>
-            <input type="checkbox" id="option31C">
+            <input type = "checkbox" class = "question31" id = "option31C">
             <label>(C)User target level<br></label>
-            <input type="checkbox" id="option31D" checked="">
+            <input type = "checkbox" class = "question31" id = "option31D" checked = "checked"/>
             <label>(D)Sub-function level<br></label>   
             </li>
             
         <li>
             <label>The class diagram consists of which of the following three parts: <br></label>
-            <input type="checkbox" id="option32A" checked="">
+            <input type="checkbox" class = "question32" id = "option32A" checked = "checked">
             <label>(A)Name<br></label>
-            <input type="checkbox" id="option32B" checked="">
+            <input type="checkbox" class = "question32" id = "option32B" checked = "checked">
             <label>(B)Attribute<br></label>
-            <input type="checkbox" id="option32C" checked="">
+            <input type="checkbox" class = "question32" id = "option32C" checked = "checked">
             <label>(C)Operation<br></label>
-            <input type="checkbox" id="option32D">
-            <label>(D)Function<br></label>   
+            <input type="checkbox" class = "question32" id = "option32D">
+            <label>(D)Function <br></label>   
             </li>
-           
 	</ol>
     </section>
     
     
+    <section name = "Question4" class = "question4">
+    <h2 class = "question4"> <b> 4、 True or False(10 points per space, 20 points total)  </b></h2>
+    
+    <ol style="list-style-type:i">
+    <li>
+        <label class = "question4">Use case diagram are only used to communicate and communicate with customer to determine demand。</label>
+        <input type="radio" class = "question41" name="option41" id = "option41True" value = "True">
+        <label>&radic;</label>
+        <input type="radio" class = "question41" name="option41" id = "option41False" value = "False" checked = "checked">
+        <label>x<br></label>
+        </li>
+        
+    <li>
+        <label>In the class diagram, the termination state allows any numbers of multiples in a state diagram。</label>
+        <input type="radio" class = "question42" name="option42" id = "option42True" value = "True" checked = "checked">
+        <label>&radic;</label>
+        <input type="radio" class = "question42" name="option42" id = "option42False" value = "False">
+        <label>x<br></label>
+        </li>
+       
+</ol>
+</section>
 
-
-
+<section name = "Question5">
+    <h2> <b> 5、 Short answer question(20 points per space, 20 points total)  </b></h2>
+    
+    <ol style="list-style-type:i">
+    <li>
+        <label>Briefly describe what the model is and how it behaves? <br></label>
+        <textarea placeholder = "        A model is simplification and abstraction of the real world. A model is a expression of the system, process, thing or concept of research. Can be a physical entity; Can be a certain graphic; or a mathematical expression."></textarea>
+        </li>       
+</ol>
+</section>
+<button> CalculatingScore</button>
 </body>
 </html>
